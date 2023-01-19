@@ -3,6 +3,6 @@
   background-color: var(--color-background);
   color: var(--color-text);
   margin: 0 auto;
-  min-width: 320px;
+  min-width: 310px;
   max-width: 1280px;
 }
