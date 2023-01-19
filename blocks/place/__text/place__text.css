@@ -16,3 +16,11 @@
   }
 
 }
+
+@media (max-width: 424px) {
+
+  .place__text {
+    padding: 0 16px;
+  }
+
+}
