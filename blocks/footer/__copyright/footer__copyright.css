@@ -1,0 +1,10 @@
+.footer__copyright {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.footer__copyright::before {
+  content: '\00A9 \0020';
+}

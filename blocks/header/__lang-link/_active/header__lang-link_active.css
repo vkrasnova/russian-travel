@@ -1,0 +1,10 @@
+.header__lang-link_active {
+  border-bottom: 2px solid var(--color-text);
+}
+
+.header__lang-link_active:hover {
+  color: var(--color-text);
+  border-bottom: 2px solid var(--color-text);
+  opacity: 1;
+  cursor: auto;
+}

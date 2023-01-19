@@ -1,0 +1,14 @@
+.place__link {
+  font-size: 18px;
+  line-height: 1.22;
+  text-decoration: none;
+  color: var(--color-text);
+  border-bottom: 1px solid var(--color-text);
+  transition: opacity .3s ease-in, border-color .3s ease-in;
+}
+
+.place__link:hover {
+  border-bottom: 1px solid rgba(var(--color-text--rgb), .8);
+  opacity: .8;
+  cursor: pointer;
+}

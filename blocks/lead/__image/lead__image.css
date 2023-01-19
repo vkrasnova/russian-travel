@@ -1,0 +1,15 @@
+.lead__image {
+  width: 100%;
+  display: flex;
+  max-height: 615px;
+  object-fit: cover;
+  object-position: top;
+}
+
+@media (max-width: 424px) {
+
+  .lead__image {
+    max-height: 265px;
+  }
+
+}

@@ -1,0 +1,11 @@
+.intro__container {
+  max-width: 690px;
+}
+
+@media (max-width: 1023px) {
+
+  .intro__container {
+    max-width: 720px;
+  }
+
+}
