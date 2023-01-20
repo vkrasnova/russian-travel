@@ -1,15 +1,15 @@
 .header__lang-link {
   font-size: 24px;
   line-height: 1.17;
-  color: var(--color-text);
+  color: var(--color-text-primary);
   text-decoration: none;
-  transition: opacity .3s ease-in, border-color .3s ease-in;
+  transition: all .3s ease-in;
+  cursor: pointer;
 }
 
 .header__lang-link:hover {
-  border-bottom: 2px solid rgba(var(--color-text--rgb), .8);
   opacity: .8;
-  cursor: pointer;
+
 }
 
 @media (max-width: 424px) {

@@ -1,12 +1,16 @@
 .place__website {
   grid-area: website;
   align-self: end;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
 }
 
 @media (max-width: 424px) {
 
   .place__website {
-    padding: 0 16px;
+    margin: 0 16px;
+    row-gap: 12px;
   }
 
 }
