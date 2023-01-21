@@ -1,6 +1,6 @@
 .lead__image {
   width: 100%;
-  display: flex;
+  display: block;
   max-height: 615px;
   object-fit: cover;
   object-position: top;
