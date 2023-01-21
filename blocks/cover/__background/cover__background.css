@@ -10,6 +10,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  row-gap: 32px;
   color: var(--color-text-primary);
   text-decoration: none;
 }
@@ -23,14 +24,11 @@
   left: 0;
   background-color: var(--color-background);
   opacity: .3;
-  transition: opacity .3s ease-in;
-}
-
-.cover__background:hover {
+  transition: all .3s ease-in;
   cursor: pointer;
 }
 
-.cover:hover .cover__background:before {
+.cover__background:hover:before {
   opacity: .8;
 }
 
@@ -62,6 +60,7 @@
 
   .cover__background {
     min-height: 200px;
+    row-gap: 16px;
   }
 
 }
