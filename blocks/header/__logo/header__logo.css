@@ -1,8 +1,5 @@
 .header__logo {
   display: block;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
   max-width: 176px;
   max-height: 52px;
   width: 100%;
