@@ -13,6 +13,7 @@
   row-gap: 32px;
   color: var(--color-text-primary);
   text-decoration: none;
+  cursor: pointer;
 }
 
 .cover__background:before {
@@ -25,7 +26,6 @@
   background-color: var(--color-background);
   opacity: .3;
   transition: all .3s ease-in;
-  cursor: pointer;
 }
 
 .cover__background:hover:before {
