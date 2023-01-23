@@ -4,14 +4,6 @@
   max-width: 1184px;
 }
 
-@media (max-width: 1279px) {
-
-  .cover {
-    padding-top: 90px;
-  }
-
-}
-
 @media (max-width: 424px) {
 
   .cover {
